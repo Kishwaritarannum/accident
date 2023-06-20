@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration:none;
+  }
+  .container{
+    display:flex;
+    
+  }
+  .main{
+    width:50%;
+    padding: 10px;
+  }
+  .sidebar{
+    background:  rgb(38, 68, 8);
+    color:#fff;
+    height: 250vh;
+    width: 500px;
+    transition: all 0.5s;
+    margin-top: 60px;
+  }
+  .top_section{
+    display: flex;
+    background:rgb(243, 237, 237);
+    margin-top: 0;
+    width: 50px;
+    align-items:center;
+    padding:20px 15px;
+  }
+  .logo{
+    font-size: 30px;
+  }
+  .bars{
+    display: flex;
+    font-size: 15px;
+    color:#000;
+    margin-left: 50px;
+  }
+  .link{
+    display: flex;
+    color: #fff;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+  }
+  .link:hover{
+    background: white;
+    color:#000;
+    transition: all 0.5s;
+  }
